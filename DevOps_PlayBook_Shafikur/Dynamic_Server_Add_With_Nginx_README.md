@@ -1,4 +1,4 @@
-# Nginx Configuration Script for Multiple Servers with pass server addresses as arguments:
+# Nginx Configuration Script to Scale Up Multiple Servers with Passed Server Addresses as Arguments.
 
 This script sets up an Nginx configuration to load balance between multiple servers and runs Docker containers for an ASP.NET application.
 

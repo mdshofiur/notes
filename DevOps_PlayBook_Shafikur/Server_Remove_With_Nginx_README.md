@@ -1,4 +1,4 @@
-# This script removes specified server addresses from the Nginx configuration, stops, and removes specific Docker containers.
+# Nginx Configuration Script to Scale Down Multiple Servers with Defined Server Addresses
 
 
 ## Prerequisites

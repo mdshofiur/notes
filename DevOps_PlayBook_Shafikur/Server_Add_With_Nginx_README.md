@@ -1,4 +1,4 @@
-# Nginx Configuration Script for Multiple Servers
+# Nginx Configuration Script to Scale Up Multiple Servers with Defined Server Addresses
 
 This script sets up an Nginx configuration to load balance between multiple servers and runs Docker containers for an ASP.NET application.
 
