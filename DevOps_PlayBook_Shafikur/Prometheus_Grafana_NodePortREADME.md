@@ -56,6 +56,7 @@ services:
          - '9100'
 ```
 
+#### Node Exporter: It is designed to collect and expose various system-level metrics from a target node or machine. It runs as a service on the node and provides valuable information about the node’s CPU usage, memory consumption, disk utilization, network statistics, and other crucial system-level data. Node Exporter allows Prometheus to scrape these metrics using the pull model and store them as time-series data
 
 ## prometheus.yml Configuration
 
@@ -85,7 +86,3 @@ scrape_configs:
 Log in with username and password ‘admin’, after that, and add a new data source connection:--
 
 Click on ‘Add new Data Source’ in the ‘Connection’ set the Prometheus URL: “http://prometheus:9090” (this is our container name)
-
-
-
-
